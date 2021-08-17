@@ -20,7 +20,7 @@ jobs:
         distribution: 'adopt'
 
     - name: goto Folder
-      run: cd Desktop
+      run: cd Desktop/video_project
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
